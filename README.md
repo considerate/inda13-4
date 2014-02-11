@@ -28,9 +28,10 @@ Mästarsatsen ger:
 då T(n) = aT(n/b) + f(n) 
 
 Om f(n) = Θ(n<sup>d</sup>), där d ≥ 0, så gäller
-T(n) ∈ Θ(n<sup>d</sup>) om a < b<sup>d</sup>,
-T(n) ∈ Θ(n<sup>d</sup>log n) om a = b<sup>d</sup>,
-T(n) ∈ Θ(n<sup>log<sub>b</sub>a</sup>) om a > b<sup>d</sup>.
+
+- T(n) ∈ Θ(n<sup>d</sup>) om a < b<sup>d</sup>,
+- T(n) ∈ Θ(n<sup>d</sup>log n) om a = b<sup>d</sup>,
+- T(n) ∈ Θ(n<sup>log<sub>b</sub>a</sup>) om a > b<sup>d</sup>.
 
 där a är antalet självrekursiva anrop, b är hur mycket informationsmängden delas med i nästa rekursion och f(n) är det konstanta arbete som utförs i varje rekursion.
 
