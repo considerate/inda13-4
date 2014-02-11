@@ -5,7 +5,7 @@ Beräkna tidskomplexiteten i medelfall för sökning, insättning och borttagnin
 ## osorterad vektor
 
 **sökning** efter ett givet element, T(n) = d*i + c där d,c ∈ ℝ och i ∈ ℤ
-Antag att det är lika stor sannolikhet för elementet att finnas på en given plats i vektorn vilket ger `i = n/2` i basfallet och tidskomplexiteten är T(n) = d*n/2 + c där d,c ∈ ℝ ⇔ T(n) ∈ Ο(n)
+Antag att det är lika stor sannolikhet för elementet att finnas på en given plats i vektorn vilket ger `i = n/2` i basfallet och tidskomplexiteten är T(n) = d*n/2 + c där d,c ∈ ℝ ⇒ T(n) ∈ Ο(n)
 
 **insättning** av ett element på plats i, T(n) = d*(n-i)+c ∈ Ο(n) där c ∈ ℝ eftersom om i ≠ 0 så behöver alla element efter i flyttas ett steg i vektorn.
 
