@@ -48,7 +48,9 @@ T(n) ∈ Θ(n<sup>0</sup>log n) = Θ(log n)
 ## osorterad enkellänkad lista
 
 **sökning** vi får samma resultat som i fallet med den osorterade vektorn. T(n) ∈ Ο(n)
+
 **insättning** I detta fall måste listan gås igenom för insättning. Insättningen kan i medelfallet antas ske lika på en godtycklig plats i listan. i är därför n/2. T(n) ∈ Ο(n)
+
 **borttagning** Samma som ovan gäller.
 
 ## sorterad enkellänkad lista
@@ -56,5 +58,7 @@ För en sorterad enkellänkad lista gäller samma som för en osorterad.
 
 ## hashtabell (du kan anta att antalet element är lika med hashtabellens storlek).
 **sökning** Ο(1), eftersom hashkoden kommer sannolikt generera ett index som är unikt till just detta element i medelfallet och då behöver endast det elementet undersökas.
+
 **insättning** O(1).
+
 **borttagning** O(1).
